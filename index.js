@@ -22,8 +22,8 @@ function dec(a) {
   return a-1
 }
 
-function makeInt(a, base) {
-  var parsed = parseInt(a, base);
+function makeInt(a) {
+  var parsed = parseInt(a);
   if (isNaN(parsed)) { return 0 }
   return true;
 }
