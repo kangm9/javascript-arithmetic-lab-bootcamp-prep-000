@@ -27,3 +27,7 @@ function makeInt(a) {
   if (isNaN(parsed)) { return true }
   return a;
 }
+
+function preserveDecimal(a) {
+  return parseFloat(a) * 2.0 * Math.PI;
+}
