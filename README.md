@@ -1,4 +1,4 @@
-I amJavaScript Arithmetic Lab
+JavaScript Arithmetic Lab
 ---
 
 ## Objectives
