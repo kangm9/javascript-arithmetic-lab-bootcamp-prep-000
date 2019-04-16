@@ -32,3 +32,8 @@ var makeInt1 = new makeInt('a');
 makeInt.prototype.toString = function makeIntToString() {
   return '' + this.a;
 }
+function makeInt(a, base) {
+  var parsed = parseInt(x, base);
+  if (isNaN(parsed)) { return 0 }
+  return parsed * 100;
+}
